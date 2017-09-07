@@ -6,6 +6,7 @@ import datetime
 import os
 from tinydb import TinyDB
 
+from config import *
 
 client_id = '747bc52b-a233-4f6e-8897-d8024825cafa'
 client_secret = 'aBjNY0fqY31Jeiy1MT1lGE857'
@@ -30,7 +31,7 @@ ignores = ['structure', 'where_id', 'serial', 'device_id']
 
 # In[3]:
 
-db = TinyDB(os.path.join(root_dir, 'db.json'))
+db = TinyDB(df_file)
 
 for device in devices:
     props = {}
