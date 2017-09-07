@@ -10,7 +10,8 @@ from tinydb import TinyDB
 client_id = '747bc52b-a233-4f6e-8897-d8024825cafa'
 client_secret = 'aBjNY0fqY31Jeiy1MT1lGE857'
 
-root_dir = os.path.join(os.path.expanduser("~"), 'Documents', 'nest_logger')
+# root_dir = os.path.join(os.path.expanduser("~"), 'Documents', 'nest_logger')
+root_dir = os.environ['NEST_LOG_ROOT']
 access_token_cache_file = os.path.join(root_dir,'nest.json')
 
 napi = nest.Nest(client_id=client_id, client_secret=client_secret, access_token_cache_file=access_token_cache_file)
