@@ -1,4 +1,4 @@
-#!/home/brian/anaconda3/bin/python
+#!/home/brian/anaconda3/envs/nest_logger/bin/python
 # coding: utf-8
 
 import nest
