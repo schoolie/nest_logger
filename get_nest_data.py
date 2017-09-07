@@ -1,15 +1,10 @@
 #!/home/brian/anaconda3/bin/python
 # coding: utf-8
 
-# In[1]:
-
 import nest
-import pandas as pd
-import sys
-import time
 import datetime
 import os
-from tinydb import TinyDB, Query
+from tinydb import TinyDB
 
 
 client_id = '747bc52b-a233-4f6e-8897-d8024825cafa'
