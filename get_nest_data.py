@@ -31,7 +31,7 @@ ignores = ['structure', 'where_id', 'serial', 'device_id']
 
 # In[3]:
 
-db = TinyDB(df_file)
+db = TinyDB(db_file)
 
 for device in devices:
     props = {}
