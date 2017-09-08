@@ -42,7 +42,7 @@ for device in devices:
 
             except NotImplementedError:
                 pass
-    props['request_time'] = datetime.datetime.now().strftime('%c')
+    props['request_time'] = datetime.datetime.utcnow().strftime('%c')
 
 
 
