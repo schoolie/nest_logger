@@ -1,6 +1,9 @@
 # nest_logger
 Simple logger for the Nest API
 
+## Create conda environment
+conda env create -f environment.yml
+
 ## Set environment variables
 export NEST_LOG_ROOT=/path/to/repo
 
