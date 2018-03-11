@@ -20,7 +20,7 @@ napi = nest.Nest(client_id=client_id, client_secret=client_secret, access_token_
 import pyowm
 
 owm = pyowm.OWM(API_key='9c1add868b3c394269fe9c2059d99dad')  # You MUST provide a valid API key
-observation = owm.weather_at_place('78613')
+observation = owm.weather_at_coords(30.527107, -97.855514)
 w = observation.get_weather()
 
 structure = napi.structures[0]
