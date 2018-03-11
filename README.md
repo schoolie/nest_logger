@@ -1,6 +1,10 @@
 # nest_logger
 Simple logger for the Nest API
 
+## Set environment variables
+export NEST_LOG_ROOT=/path/to/repo
+
+
 ## Add script to crontab:
 
 `crontab -e`
