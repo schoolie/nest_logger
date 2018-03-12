@@ -2,10 +2,12 @@
 Simple logger for the Nest API
 
 ## Create conda environment
-conda env create -f environment.yml
+`conda env create -f environment.yml
+
+`source activate nest_logger
 
 ## Set environment variables
-export NEST_LOG_ROOT=/path/to/repo
+`export NEST_LOG_ROOT=/path/to/repo
 
 
 ## Add script to crontab:
@@ -20,3 +22,15 @@ NEST_LOG_ROOT="/home/brian/nest_logger"
 #  ^
 # Update period (in minutes)
 ```
+
+## For jupyter notebook server:
+`conda install jupyter
+
+`cp ./jupyter_notebook_config.py ~/.jupyter
+
+`cd ~/nest_logger
+
+`jupyter notebook
+
+
+Access notebook at brianschoolcraft.com:9999
